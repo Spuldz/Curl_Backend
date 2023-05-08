@@ -1,6 +1,6 @@
 import { Request } from "express";
-import { IUser } from "./IUser";
+import { IJWTUser, IUser } from "./IUser";
 
 export interface AuthRequest extends Request{
-    user: IUser
+    user: IJWTUser
 }
